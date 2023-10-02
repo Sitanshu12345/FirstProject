@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    padding-top: 40px;
+    height: 100vh;
+}
+
+header h1 {
+    background-image: url(../image/image_processing20200226-29793-a3ouwl.gif);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    background-size: 50%;
+
+}
+
+header {
+    background-color: rgba(1, 6, 1, 0.916);
+}
+
+
+
+nav {
+    background-color: rgb(91, 89, 89);
+    overflow: hidden;
+
+
+}
+
+nav a {
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(91, 89, 89);
+    text-align: center;
+    padding: 20px;
+    float: left;
+    overflow: hidden;
+
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgb(191, 187, 187);
+
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgba(241, 241, 241, 0.627);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+    padding: 0px 10px;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.signup {
+    margin-left: 1000px;
+}
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+
+
+}
+
+.profilephoto {
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.social_handle a {
+    color: blueviolet;
+    background-color: rgba(157, 151, 151, 0.418);
+    border-radius: 30px;
+    padding: 5px 20px 15px 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} 
+
+.instagram_handle {
+    color: #dd2a7b;
+}
+
+.snapchat_handle {
+    color: #FFFC00;
+}
+
+.instagram_handle a {
+    color: #dd2a7b;
+}
+
+
+
+.social_handle a:hover {
+    background-color: rgba(137, 131, 131, 0.693);
+}
+ .social_handle i {
+    margin: 5px;
+ }
+
+ 
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+section h2 span {
+    background: rgb(55, 54, 54);
+    background: linear-gradient(90deg, rgba(55, 54, 54, 1) 25%, rgba(24, 24, 24, 0.7744807121661721) 47%, rgba(45, 48, 48, 1) 72%);
+    padding: 10px 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+
+}
+
+/* !important - whenever this keyword is used that attribute will always be executed */
+/* media query is always written in last */
+/* padding syntax - top right bottm left */
+/* font awesome 4 - used for icons */
